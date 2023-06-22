@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    appearance: none;
+    border: 0;
+    list-style: none;
+    outline: none;
+}
+
+body{
+    font-size: 12px;
+    font-family: 'poppins', monospace;
+}
+
+.bg-red{
+    background: rgb(255, 67, 54);
+}
+.bg-green{
+    background: rgb(34, 202, 75);
+}
+.bg-purple{
+    background: rgb(160, 99, 245);
+}
+.bg-yellow{
+    background: rgb(234, 181, 7);
+}
+
+h3{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.main-header{
+    width: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+    
+}
+
+.heading-title{
+    width: 94%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.btn{
+    background-color: rgba(251, 249, 243, 0.8);
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+
+
+.badges{
+    max-width: 100%;
+    display: flex;
+    align-self: center;
+    grid-template-columns:  1fr;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.badges span{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+}
+
+.badges .badge{
+    padding: 0.6rem;
+    background-color: #000;
+    color: #fff;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-self: center;
+    cursor: pointer;
+}
+
+.badges .badge a{
+    color: #fff;
+}
+
+.header h3 {
+    text-align: center;
+}
+
+
+.container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    background-color: #eaeaea;
+    margin: 0 auto;
+    /*display: none;*/
+}
+
+.container .header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+#contact-form{
+
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+    max-width: 600px;
+    background-color: #fff;
+    border: 1px solid #c1c1c1;
+    border-radius: 10px;
+    
+}
+
+.input-form{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgba(251, 249, 243, 0.8);
+    border: 1px solid #c1c1c1;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.input-btn{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+    /*background-color: #000;*/
+}
+
+#contact-form textarea{
+    min-height: 100px;
+    resize: none;
+}
+
+footer{
+    background-color: #fff;
+    margin: 10px;
+    padding: 2rem;
+    text-align: center;  
+    border: 1px solid #c1c1c1;
+    border-radius: 5px;
+}
+
+.upload{
+    width: 125px;
+    position: relative;
+    margin: auto;
+}
+
+.upload img{
+    border-radius: 50%;
+    border: 8px solid #dcdcdc;
+}
+
+.upload .round{
+    position: absolute;
+    background: rgb(0, 0, 255);
+    bottom: 0;
+    right: 0;
+    width: 32px;
+    height: 32px;
+    line-height: 33px;
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.upload .round input[type="file"]{
+    position: absolute;
+    transform: scale(3);
+    opacity: 0;
+}
+
+input[type=file]::-webkit-file-upload-button{
+    cursor: pointer;
+}
+
+
+    
+
+
